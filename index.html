@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Início</title>
     <link rel="stylesheet" type="text/css" href="_css/style.css" />
-    <link rel="stylesheet" type="text/css" href="_css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css" />
     <link rel="stylesheet" type="text/css" href="_css/animate.css" />
     <script defer src="fontawesome/js/all.js"></script>
     <script defer src="fontawesome/js/brands.js"></script>
 </head>
-  <body id=bgcolor>
+  <body id="bgcolor" onload="new WOW().init();">
     <header>
       <!--NAV BAR-->
       <div class="sticky-top">
@@ -199,10 +199,8 @@
               <br>
             </div>
           </div>
-          <script src="_js/wow.min.js"></script>
-          <script>
-            new WOW().init();
-          </script>
+          <script type="text/javascript" src="_js/wow.min.js"></script>
+          <script type="text/javascript" src="_js/main.js"></script>
     </footer>
   </div>
     <!--footer-->
