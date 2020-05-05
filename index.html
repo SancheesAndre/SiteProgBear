@@ -20,9 +20,9 @@
         <input type="checkbox" id="nav-toggle" class="nav-toggle">
         <nav>
           <ul>
-            <li><a href="index.html" class="Pag-atual lead">Quem Somos</a></li>
-            <li><a href="projeto.html" class="Pag-outras lead">Projeto</a></li>
-            <li><a href="fale_conosco.html" class="Pag-outras lead">Fale Conosco</a></li>
+            <li><a href="#quem-somos" id="a_quem-somos" class="lead Mover-para-id Pag-outras" onclick="mudarSelec('Mover-para-id', this.id)" onmouseup="addOnScroll()">Quem Somos</a></li>
+            <li><a href="#projeto" id="a_projeto" class="lead Mover-para-id Pag-outras" onclick="mudarSelec('Mover-para-id', this.id)" onmouseup="addOnScroll()">Projeto</a></li>
+            <li><a href="#feedback" id="a_feedback" class="lead Mover-para-id Pag-outras" onclick="mudarSelec('Mover-para-id', this.id)" onmouseup="addOnScroll()">Fale Conosco</a></li>
           </ul>
         </nav>
         <label for="nav-toggle" class="nav-toggle-label">
@@ -38,7 +38,7 @@
       <div class="row">
         <div class="col">
             <div class="container">
-              <h1 class="display-4 text-white text-center wow bounceInDown">Bem vindo(a) à Programming Bear!</h1>
+              <h1 class="display-4 text-white text-center wow bounceInDown" id="quem-somos">Bem vindo(a) à Programming Bear!</h1>
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@
           <div class="col-md-auto">
             <div id= "content">
               <div class="container">
-                <h1 class="display-4 text-white">Sobre nós:</h1>
+                <h1 class="display-4 text-white que">Sobre nós:</h1>
                 <p class="lead text-white">A ideia do grupo surgiu de um projeto de TCC da Etec Horácio Augusto Silveira, onde unimos nossa fascinação aos jogos com a ideia onde o aprendizado poderia ser algo mais satisfatório e interativo que o convencional.<br> 
                   Já que a maioria de nós conseguiu tirar lições e aprendizados de jogos, queremos uma oportunidade de replicar isso de maneira ainda mais direta, usando conceitos como gameficação (gamification) para dar mêcanicas divertidas e enriquecer cada vez mais o contexto dos estudos.</p>
               </div>
@@ -100,7 +100,7 @@
                     </table>
                 </div>
               </div>
-            <div class="col"></div>
+            <div class="col" id="projeto"></div>
           </div>
         <br>
         <br>
@@ -132,8 +132,8 @@
           </div>
         </div>
       </div>
-      <br>
-      <br>
+      <br />
+      <br />
         <div class="row align-items-auto">
           <div class="col-md-auto">
             <div id="content">
