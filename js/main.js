@@ -43,6 +43,13 @@ function addOnScroll()
 {
 	setTimeout(function()
 	{
+		var b = document.getElementById(btn_pressionado.id.slice(2)).getBoundingClientRect();
+		var c = document.body.getBoundingClientRect();
+		console.log(c.top - b.top)
+		window.scrollTo(0, (b.top - c.top) - 100);
+	}, 30)
+	setTimeout(function()
+	{
 		window.addEventListener('scroll', unselect);
 	}, 200)
 }
