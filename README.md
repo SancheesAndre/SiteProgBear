@@ -1,8 +1,6 @@
 # [Visite o site](https://sancheesandre.github.io/SiteProgBear/)
 
-Este repositório tem como finalidade a criação de um site que servirá de base para a empresa do jogo educacional que esta sendo
-desenvolvido pelo grupo Programming Bear para a entrega do Trabalho de Conclusão de Curso(TCC) do curso Técnino em 
-Desenvolvimento de Sistemas do Centro Paula Souza
+Este repositório tem como finalidade, a criação de um site que servirá de base para a empresa de jogos educacionais do grupo Programming Bear, que tem por objetivo a entrega do Trabalho de Conclusão de Curso(TCC) do curso Técnino em Desenvolvimento de Sistemas do Centro Paula Souza.
 
 ## Colaboradores do Projeto:
 
