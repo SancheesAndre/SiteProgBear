@@ -41,7 +41,6 @@ function mudarSelec(classe, pressionado)
 
 function addOnScroll()
 {
-	console.log('jorge');
 	setTimeout(function()
 	{
 		window.addEventListener('scroll', unselect);
@@ -50,7 +49,6 @@ function addOnScroll()
 
 function unselect(e)
 {
-	console.log('jorge');
 	btn_pressionado.classList.remove("Pag-atual");
 	window.removeEventListener('scroll', unselect);
 }
